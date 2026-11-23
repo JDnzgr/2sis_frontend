@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Bookstore — Loja Integrada</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>XYZ Bookstore</h1>
+    <p>Browse our collection of amazing books!</p>
+
+    <!-- Feedback visual para o usuário (mensagens de erro 400 e confirmação) -->
+    <div id="mensagem-status" class="alerta-status" style="display: none;"></div>
+
+    <!-- Catálogo de livros montado dinamicamente pela API REST -->
+    <div class="card-container">
+      <p class="carregando">Carregando catálogo da API...</p>
+    </div>
+
+    <p>Review your selections and continue to checkout.</p>
+
+    <!-- Botões de ação do funil de compra -->
+    <div class="btn-container">
+      <button id="view-cart-btn" class="btn">View Cart</button>
+      <button id="checkout-btn" class="btn btn-primary">Checkout</button>
+    </div>
+
+    <!-- Seção do Carrinho de Compras (Step 19: Desafio Final) -->
+    <div id="carrinho-view" class="carrinho-secao" style="display: none;">
+      <h2>Seu Carrinho</h2>
+      <div id="carrinho-conteudo"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
