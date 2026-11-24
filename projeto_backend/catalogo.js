@@ -3,11 +3,18 @@
 
 const livros = [
   {
-    id: "sally-adventure-book",
-    titulo: "Sally's SciFi Adventure",
-    autor: "A. Writer",
-    descricao: "This is an epic story of Sally and her dog Rex as they navigate through other worlds.",
-    preco: 39.9,
+    id: "Uma história de amor",
+    titulo: "Uma história de amor",
+    autor: "Carlos Heitor Cony",
+    descricao: "Em Uma História de Amor, Henrique e Helena protagonizam uma história de amor que transcende os limites da dor e das adversidades.",
+    preco: 79.90,
+  },
+  {
+    id: "O Pequeno Príncipe",
+    titulo: "O Pequeno Príncipe",
+    autor: "Antoine de Saint-Exupéry",
+    descricao: "O Pequeno Príncipe é uma obra literária que narra a história de um jovem príncipe que viaja por diferentes planetas, aprendendo lições valiosas sobre a vida e a natureza humana.",
+    preco: 49.90,
   },
   {
     id: "dave-cooking-book",
